@@ -7,7 +7,7 @@ import TransformedImage from "@/components/shared/TransformedImage";
 import { Button } from "@/components/ui/button";
 import { getImageById } from "@/lib/actions/image.actions";
 import { getImageSize } from "@/lib/utils";
-// import { DeleteConfirmation } from "@/components/shared/DeleteConfirmation";
+import { DeleteConfirmation } from "@/components/shared/DeleteConfirmation";
 
 const ImageDetails = async (props: SearchParamProps) => {
   const { id } = await props.params;
@@ -93,7 +93,7 @@ const ImageDetails = async (props: SearchParamProps) => {
               </Link>
             </Button>
 
-            {/* <DeleteConfirmation imageId={image._id} /> */}
+            <DeleteConfirmation imageId={image._id} />
           </div>
         )}
       </section>
