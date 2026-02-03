@@ -47,10 +47,10 @@ export const plans = [
     name: "Free",
     icon: "/assets/icons/free-plan.svg",
     price: 0,
-    credits: 20,
+    credits: 10,
     inclusions: [
       {
-        label: "20 Free Credits",
+        label: "10 Free Credits",
         isIncluded: true,
       },
       {
@@ -72,10 +72,10 @@ export const plans = [
     name: "Pro Package",
     icon: "/assets/icons/free-plan.svg",
     price: 40,
-    credits: 120,
+    credits: 80,
     inclusions: [
       {
-        label: "120 Credits",
+        label: "80 Credits",
         isIncluded: true,
       },
       {
@@ -97,10 +97,10 @@ export const plans = [
     name: "Premium Package",
     icon: "/assets/icons/free-plan.svg",
     price: 199,
-    credits: 2000,
+    credits: 500,
     inclusions: [
       {
-        label: "2000 Credits",
+        label: "500 Credits",
         isIncluded: true,
       },
       {
