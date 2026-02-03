@@ -7,6 +7,15 @@ const nextConfig: NextConfig = {
   webpack: (config) => {
     return config;
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        port: ''
+      }
+    ]
+  }
   
 };
 
